@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	string frst;
+	getline(cin,frst);
+	if(frst!="H-O-O-H"){
+		cout<<"No opening command.";
+		return 69;
+	}
+	string snd;
+	getline (cin,snd);
+	if(snd!="C-C-C-C-C-C-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-H-O-O-H-O-O-O-O-O"){ 
+	cout << "No commands.";
+	return 69;
+	}
+	string yeet;
+	getline(cin,yeet);
+	cout << yeet;
+	string end;
+	getline(cin,end);
+	if(end!="Og") {
+		cout << "No end command";
+	return 69; } else {
+		return 69;
+	}
+}
